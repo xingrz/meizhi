@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.Viewer" parent="Theme.AppCompat">
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="actionBarStyle">@style/AppTheme.Viewer.ActionBar</item>
+    </style>
+
+    <style name="AppTheme.Viewer.ActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="background">@android:color/transparent</item>
+    </style>
+
+</resources>

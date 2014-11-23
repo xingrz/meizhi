@@ -1,0 +1,35 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.1"
+
+    defaultConfig {
+        applicationId "im.meizhi"
+        minSdkVersion 16
+        targetSdkVersion 21
+        versionCode 10000
+        versionName "1.0.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:21.0.2'
+    compile 'com.android.support:recyclerview-v7:21.0.0'
+
+    compile('com.github.ksoichiro:android-observablescrollview:1.2.0') {
+        exclude group: 'com.android.support', module: 'recyclerview-v7'
+    }
+
+    compile 'com.mcxiaoke.volley:library:1.0.6'
+    compile 'org.jsoup:jsoup:1.8.1'
+
+    compile 'com.squareup.picasso:picasso:2.4.0'
+}

@@ -1,0 +1,21 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="AppTheme.ActionBarOverlay" parent="AppTheme">
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="AppTheme.Viewer" parent="Theme.AppCompat">
+        <item name="actionBarStyle">@style/AppTheme.Viewer.ActionBar</item>
+    </style>
+
+    <style name="AppTheme.Viewer.ActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="background">@drawable/actionbar_background_translucent</item>
+    </style>
+
+</resources>

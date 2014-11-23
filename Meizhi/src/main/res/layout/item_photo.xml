@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <im.meizhi.widget.SquareImageView
+        android:id="@+id/thumb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop" />
+
+    <View
+        android:id="@+id/ripple"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/thumb"
+        android:layout_alignEnd="@+id/thumb"
+        android:layout_alignLeft="@+id/thumb"
+        android:layout_alignRight="@+id/thumb"
+        android:layout_alignStart="@+id/thumb"
+        android:layout_alignTop="@+id/thumb"
+        android:background="?attr/selectableItemBackground" />
+
+</RelativeLayout>

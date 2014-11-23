@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.Viewer.ActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="background">@drawable/actionbar_background_translucent</item>
+    </style>
+
+</resources>

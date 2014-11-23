@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/play"
+        android:icon="@drawable/ic_play_arrow_white_24dp"
+        android:title="Play"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/stop"
+        android:icon="@drawable/ic_stop_white_24dp"
+        android:title="Stop"
+        android:visible="false"
+        app:showAsAction="always" />
+
+</menu>
