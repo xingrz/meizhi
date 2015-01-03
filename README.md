@@ -1,6 +1,17 @@
 Meizhi
 ======
 
+[![build status][travis-image]][travis-url] [![latest release][release-image]][release-url] [![issues][issues-image]][issues-url] ![sdk][sdk-image] ![build tools][build-tools-image]
+
+[travis-image]: https://img.shields.io/travis/xingrz/meizhi.svg?style=flat-square
+[travis-url]: https://travis-ci.org/xingrz/meizhi
+[release-image]: https://img.shields.io/github/release/xingrz/meizhi.svg?style=flat-square
+[release-url]: https://github.com/xingrz/meizhi/releases/latest
+[issues-image]: https://img.shields.io/github/issues/xingrz/meizhi.svg?style=flat-square
+[issues-url]: https://github.com/xingrz/meizhi/issues
+[sdk-image]: https://img.shields.io/badge/sdk-android--21-green.svg?style=flat-square
+[build-tools-image]: https://img.shields.io/badge/build--tools-21.1.2-green.svg?style=flat-square
+
 [Meizhi.im](http://meizhi.im)
 
 纯粹为了尝试一些新的玩意：
