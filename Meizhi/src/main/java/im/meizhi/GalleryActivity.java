@@ -77,6 +77,8 @@ public class GalleryActivity extends ActionBarActivity implements
         } else {
             onRefresh();
         }
+
+        getSupportActionBar().show();
     }
 
     @Override
