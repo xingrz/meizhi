@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 21
-    buildToolsVersion "21.1.1"
+    buildToolsVersion "21.1.2"
 
     defaultConfig {
         applicationId "im.meizhi"
@@ -21,14 +21,14 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:21.0.2'
-    compile 'com.android.support:recyclerview-v7:21.0.0'
+    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile 'com.android.support:recyclerview-v7:21.0.3'
 
-    compile('com.github.ksoichiro:android-observablescrollview:1.2.0') {
+    compile('com.github.ksoichiro:android-observablescrollview:1.4.0') {
         exclude group: 'com.android.support', module: 'recyclerview-v7'
     }
 
-    compile 'com.mcxiaoke.volley:library:1.0.6'
+    compile 'com.mcxiaoke.volley:library:1.0.10'
     compile 'org.jsoup:jsoup:1.8.1'
 
     compile 'com.squareup.picasso:picasso:2.4.0'
